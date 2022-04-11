@@ -1,0 +1,212 @@
+color: #384b8f
+*{
+	margin: 0;
+	/*padding: 0;*/
+
+} 
+
+body {
+	background-color: white;
+	font-family: poppins;
+	color: #253781
+}
+
+/* ___________ HEADER ____________ */
+#entete{
+	background-color:white;
+	font-family: poppins;
+	color: #2c26d4;
+	display: flex ;
+	flex-direction: row ; 
+	justify-content: space-around ;
+	align-items: center ;
+	/*padding: 30px;*/
+	
+
+	width: 100%;
+}
+#identite{
+	display: flex;
+	align-items: center;
+	padding-top: 120px;
+	padding-bottom: 50px;
+}
+#identite img{ 
+	width: 150px;
+	margin-right: 10px;
+}
+
+#identite h1 {
+	margin-left: 10px;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 2.5vw;
+
+}
+/* A PROPOS PARTICULARITE*/
+
+#identite h1.h1apropos{
+	font-size: 1.5vw;
+}
+
+#identite h2{
+	margin-left: 20px;
+	font-weight: 200;
+}
+
+/* ___________ HEADER MENU ____________ */
+
+#menu {
+	background-color:#f7f4ba;
+	position: fixed;
+	z-index: 900;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	align-items: center;
+
+
+}
+
+#menu ul {
+	padding: 0;
+	display: flex ;
+
+}
+
+#menu ul li {
+	list-style-type:none  ;
+	margin-left: 20px;
+
+}
+
+#menu ul li a {
+	color: #2c26d4;;
+	text-decoration: none;
+
+
+}
+
+#menu ul li a:hover {
+	color: white ;
+	text-decoration: underline;
+}
+
+/* ___________ CONTENU PRINCIPAL ____________ */
+main {
+	background-color: #f8f7f1;
+	padding-top: 20px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#projets{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+.vignette{
+	position: relative;
+	/*width: 32%;
+	height: 32%;*/
+	margin: 5px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	
+	}
+
+.info{
+	/*display: none;*/
+	position:absolute ;
+	background-color: rgba(255, 255, 255, 0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color : #2c26d4;
+	
+	opacity: 0;
+}
+
+.vignette a:hover .info {
+	opacity: 1;
+}
+
+
+.photo img { 
+	width: 150%;
+	vertical-align: bottom;
+}
+
+
+/* ___________ FOOTER ____________ */
+footer {
+	background-color: #f7f4ba;
+	padding: 20px;
+	width: 100%;
+
+}
+#reseaux img{
+	width: 30px;
+	padding: 10px;
+} 
+
+#reseaux ul{
+ 	padding: 0;
+ 	display: flex;
+}
+#reseaux ul li {
+	list-style-type: none;
+ 
+}
+footer p {
+	align-items: center;
+	color: white;
+
+}
+
+
+/* _______ CONTENU A PROPOS___________*/ 
+
+
+#presentation {
+	display: flex;
+	justify-content: center;
+}
+
+
+.profil{
+	font-family: poppins;
+	background-color:#f8f7f1 ;
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.photomoi img { 
+	width: 100%;
+
+
+}
+
+.informations h5{
+	font-style: italic;
+	font-weight:300 ;
+	text-align: right;
+} 
+
+.informations p{
+	font-style: normal;
+	font-weight: 100;
+
+
+}
